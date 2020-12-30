@@ -4,6 +4,7 @@ node_js:
   - 4.2
   
 before_script:
+  - cd sample-nodeapp
   - npm install
   
 script:
